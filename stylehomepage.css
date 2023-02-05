@@ -1,0 +1,99 @@
+body
+{
+background-color: #7fffd4;
+}
+.logotext
+{
+    padding: 1px;
+    margin: 5px;
+    letter-spacing: -5px;
+    line-height: 0.10;
+    border-left: 0.5em solid rgb(255, 0, 51);
+    
+}
+.menu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  .dropdown:hover .dropdown-content 
+  {
+    display: block;
+    background-color: rgb(0,100,0);
+  }
+  .homeinfo h1
+  {
+    color: rgb(5, 220, 253);
+  }
+  .homeinfo p
+  {
+    color: #fff;
+  }
+  .homeinfo
+  {
+    border-style: solid;
+    text-align: center;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: rgb(60, 121, 71);
+    margin: 15px;
+  }
+  .homeinfo2 h1
+  {
+    color: rgb(5, 220, 253);
+  }
+  .homeinfo2 h3
+  {
+    color: #fff;
+  }
+  .homeinfo2
+  {
+    border-style: solid;
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgb(60, 121, 71);
+    margin: 15px;
+  }
+  .back
+  {
+    text-align: center;
+  }
+  .logout
+  {
+    padding: 5px;
+    margin: 10px;
+    line-height: 0.10;
+    text-align: right;
+    border-radius: 10px;
+}
